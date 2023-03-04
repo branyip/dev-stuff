@@ -8,14 +8,18 @@ A collection of things I like to use, intended to be used as a reference for ini
   - More info about the template config [here](#iterm2-template-config)
 - [**Oh My Zsh**](https://ohmyz.sh/#install): Zsh framework for plugins and themes.
   - More info about the template `.zshrc` file [here](#zsh-template-config)
-- [**Notion**](https://www.notion.so/): Note taking app
+- [**Notion**](https://www.notion.so/): Wiki-style note-taking app with Markdown support and various templates.
 - [**Jetbrains IDEs**](https://www.jetbrains.com/): My preferred suite of IDEs (Webstorm, Pycharm)
-  - TODO: recommended plugins and add template config file
+  - Recommended plugins: CodeGlance Pro, Dracula Theme
+
+
 ## CLI Tools
 - [**homebrew**](https://brew.sh/): Package manager. Machines with arm64 processors may want to install brew in an x86 shell for more reliable package compatibility.
 - [**jq**](https://stedolan.github.io/jq/): JSON processor
 - [**httpie**](https://httpie.io/docs/cli): A user-friendly cUrl stand-in
 - [**tldr**](https://tldr.sh/): man pages but prettier
+- [**nvm**](https://github.com/nvm-sh/nvm): Node version manager
+- [**pyenv**](https://github.com/pyenv/pyenv) Python version manager
 
 ## Git Commands
 
@@ -51,15 +55,17 @@ I use these shortcuts with [QMK](https://qmk.fm/) compatible keyboards (Ex. `Fn 
 | `⌃ ⌥ →`   | Resize focused window to right half |
 | `⌃ ⌥ ↑`   | Maximize focused window             |
 | `⌃ ⌥ ⌘ ←` | Move focused window to next monitor |
+| `⌃ ⌥ P`   | Capture screenshot to clipboard     |
 
 
-**Touchpad Shortcuts (Only works with Apple force touch trackpads)**
+**Trackpad Shortcuts (Only works with Apple force touch trackpads)**
 
 | Shortcut                  | Action                              |
 |---------------------------|-------------------------------------|
 | Press bottom-left corner  | Resize focused window to left half  |
 | Press bottom-right corner | Resize focused window to right half |
 | Press top-left corner     | Maximize focused window             |
+| Press top-right corner    | Capture screenshot to clipboard     |
 
 
 ## iTerm2 Template Config
@@ -77,13 +83,14 @@ Doesn't stray too far from the default settings, some changes include:
 - Natural text editing (Ex. text navigation shortcuts like `⌥ ←` and `⌘ ←`)
 
 ## Zsh Template Config
-TODO
+- Includes a few plugins (git, syntax highlighting
+- [Pure](https://github.com/sindresorhus/pure) prompt
+- NVM initialization
+- Pyenv initialization
+
 
 ## Brew
-TODO: recommended packages
-
-## Node
-TODO: Env setup and recommended global packages
-
-## Python
-TODO: Env setup and recommended global packages
+Most of these have been mentioned before
+```shell
+brew install awscli curl httpie jq node nvm pure pyenv 
+```
