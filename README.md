@@ -29,6 +29,9 @@ git config --global alias.olog "log --oneline"
 # Alias to print upstream name for working branch
 git config --global alias.ref "rev-parse --abbrev-ref HEAD@{upstream}"
 
+# Push with upstream as working branch name
+git config --global alias.upush "push $(git branch --show-current)"
+
 # Global git ignore
 git config --get core.excludesfile  # check if it exists first
 mkdir -p ~/.config/git && touch ~/.config/git/ignore  # if it doesn't exist then create one in the default location
