@@ -20,6 +20,7 @@ A collection of things I like to use, intended to be used as a reference for ini
 - [**tldr**](https://tldr.sh/): man pages but prettier
 - [**nvm**](https://github.com/nvm-sh/nvm): Node version manager
 - [**pyenv**](https://github.com/pyenv/pyenv) Python version manager
+  - [Guide by realpython](https://realpython.com/intro-to-pyenv/#installing-pyenv)
 
 ## Git Commands
 
