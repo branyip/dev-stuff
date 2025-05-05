@@ -44,6 +44,10 @@ git config --global core.excludesFile '~/.gitignore'
 echo ".idea/" >> ~/.config/git/ignore  # example of adding Jetbrains IDE project files to global ignore
 ```
 
+### Further customization
+https://blog.gitbutler.com/how-git-core-devs-configure-git/
+
+
 ## BetterTouchTool Template Config
 
 **Keyboard Shortcuts**
