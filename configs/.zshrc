@@ -5,6 +5,10 @@ plugins=(zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
+# zsh completion system
+autoload -Uz compinit
+compinit
+
 # pure prompt init
 autoload -U promptinit; promptinit
 prompt pure
