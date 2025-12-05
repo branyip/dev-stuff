@@ -3,16 +3,14 @@ A collection of things I like to use, intended to be used as a reference for ini
 
 
 # General Tools and Apps
-- [**BetterTouchTool**](https://folivora.ai/): For setting up custom macros for your keyboard and touchpad (template config included `configs/profile.bttpreset`).
+- [**BetterTouchTool**](https://folivora.ai/): For setting up custom window snapping and custom macros for your keyboard/touchpad (template config included `configs/profile.bttpreset`).
   - More info about the template config [here](#bettertouchtool-template-config)
 - [**homebrew**](https://brew.sh/): Package manager. Machines with arm64 processors may want to install brew in an x86 shell for more reliable package compatibility.
 - [**iTerm2**](https://iterm2.com/): Terminal replacement (template config included `configs/iterm2_profile.json`).
   - More info about the template config [here](#iterm2-template-config)
 - [**Notion**](https://www.notion.so/): Wiki-style note-taking app with Markdown support and various templates.
 - [**Oh My Zsh**](https://ohmyz.sh/#install): Zsh framework for plugins and themes (more info about the template `.zshrc` file [here](#zsh-template-config)).
-- [**Jetbrains IDEs**](https://www.jetbrains.com/): My preferred suite of IDEs (Webstorm, Pycharm)
-  - Recommended plugins: CodeGlance Pro, Dracula Theme
-- [**Zed**](https://zed.dev/): Fast text editor
+- [**Zed**](https://zed.dev/): A fast Rust-based editor, favorite extensions [here](#zed-extensions)
 
 
 # Brew
@@ -92,3 +90,8 @@ Doesn't stray too far from the default settings, some changes include:
 # Zsh Template Config
 - [Pure](https://github.com/sindresorhus/pure) prompt initialization
 - FNM initialization
+
+# Zed Extensions
+- [Jetbrains Mono font](https://www.jetbrains.com/lp/mono/#how-to-install)
+- Material Icon Theme
+- Dracula Theme
