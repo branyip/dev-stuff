@@ -3,7 +3,7 @@ A collection of things I like to use, intended to be used as a reference for ini
 
 
 # General Tools and Apps
-- [**BetterTouchTool**](https://folivora.ai/): For setting up custom window snapping and custom macros for your keyboard/touchpad (template config included `configs/profile.bttpreset`).
+- [**BetterTouchTool**](https://folivora.ai/): For setting up custom macros for your keyboard/touchpad (template config included `configs/profile.bttpreset`).
   - More info about the template config [here](#bettertouchtool-template-config)
 - [**homebrew**](https://brew.sh/): Package manager. Machines with arm64 processors may want to install brew in an x86 shell for more reliable package compatibility.
 - [**iTerm2**](https://iterm2.com/): Terminal replacement (template config included `configs/iterm2_profile.json`).
@@ -11,6 +11,7 @@ A collection of things I like to use, intended to be used as a reference for ini
 - [**Notion**](https://www.notion.so/): Wiki-style note-taking app with Markdown support and various templates.
 - [**Oh My Zsh**](https://ohmyz.sh/#install): Zsh framework for plugins and themes (more info about the template `.zshrc` file [here](#zsh-template-config)).
 - [**Zed**](https://zed.dev/): A fast Rust-based editor, favorite extensions [here](#zed-extensions)
+- [**MacsyZones**](https://macsyzones.com/): A window snapping tool, works just like Powertools FancyZones
 
 
 # Brew
