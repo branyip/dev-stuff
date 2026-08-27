@@ -42,6 +42,12 @@ git config --global alias.ref "rev-parse --abbrev-ref HEAD@{upstream}"
 # Push with upstream as working branch name
 git config --global alias.upush "push $(git branch --show-current)"
 
+# Always push to a same-named remote branch
+git config --global push.default current
+
+# Bare `git push` creates same-named remote branch and sets upstream
+git config --global push.autoSetupRemote true
+
 # Global git ignore
 git config --get core.excludesfile  # check if it exists first
 mkdir -p ~/.config/git && touch ~/.config/git/ignore  # if it doesn't exist then create one in the default location
