@@ -42,6 +42,9 @@ git config --global alias.ref "rev-parse --abbrev-ref HEAD@{upstream}"
 # Push with upstream as working branch name
 git config --global alias.upush "push $(git branch --show-current)"
 
+# Don't allow mismatched tracking
+git config --global branch.autoSetupMerge simple
+
 # Always push to a same-named remote branch
 git config --global push.default current
 
